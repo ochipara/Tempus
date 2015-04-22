@@ -217,14 +217,13 @@ public class TempusProgramAnalysis {
 
         Iterator<Edge> deadlineEdges = callGraph.edgesInto(deadlineMethod);
         while (deadlineEdges.hasNext()) {
-            G.v().out.println("Found call to APE_Deadline!");
             Edge e = deadlineEdges.next();
             Unit u = e.srcUnit();
 
             // Get parameters to BoundDelay call
             List<ValueBox> values = u.getUseBoxes();
 //			int delayBudget = Integer.parseInt(values.get(0).getValue().toString());
-            Local localValue = (Local) values.get(1).getValue();
+            Local localValue = (Local) values.get(0).getValue();
 //			int budgetId = Integer.parseInt(values.get(2).getValue().toString());
 
             SourceFileTag file = (SourceFileTag) e.getSrc().method().getDeclaringClass().getTag("SourceFileTag");

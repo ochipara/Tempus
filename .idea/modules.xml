@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tests/ProducerConsumer/ProducerConsumer.iml" filepath="$PROJECT_DIR$/tests/ProducerConsumer/ProducerConsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TempusCode.iml" filepath="$PROJECT_DIR$/.idea/TempusCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/TempusTest/TempusTest.iml" filepath="$PROJECT_DIR$/tests/TempusTest/TempusTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotations/annotations.iml" filepath="$PROJECT_DIR$/annotations/annotations.iml" />
+    </modules>
+  </component>
+</project>

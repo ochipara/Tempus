@@ -29,9 +29,12 @@ import java.util.Properties;
 public class TempusMain {	
 	//public static final String apkLocation = "/Users/ochipara/AndroidstudioProjects/TempusTests/app/build/outputs/apk/app-debug.apk";
 	//public static final String apkLocation = "/Users/ochipara/AndroidstudioProjects/ProducerConsumer/app/build/outputs/apk/app-debug.apk";
-	public static final String apkLocation = "/Users/ochipara/Working/Tempus/tests/ProducerConsumerExample/app/build/outputs/apk/app-debug.apk";
+	//public static final String apkLocation = "/Users/ochipara/Working/Tempus/tests/ProducerConsumerExample/app/build/outputs/apk/app-debug.apk";
 	//public static final String apkLocation = "/Users/ochipara/Working/Tempus/tests/HealthReportExample/app/build/outputs/apk/app-debug.apk";
-	
+
+	//public static final String apkLocation = "/Users/ochipara/Working/Tempus/TempusCode/out/production/TempusTest/TempusTest.apk";
+    public static final String apkLocation = "/Users/ochipara/Working/Tempus/TempusCode/out/production/ProducerConsumer/ProducerConsumer.apk";
+
 
 //	public static final String sdkLocation = "/Users/ochipara/android-sdk/platforms/";
 	public static final String sdkLocation = "/Users/ochipara/Working/Tempus/";
@@ -237,7 +240,7 @@ public class TempusMain {
 
 		//ystem.exit(0);
 
-		printCode("<uiowa.edu.waitnotify.TestWaitNotify$Waiter: void run()>");
+//		printCode("<com.example.TempusTest.MyActivity: void test1()>");
 
 
 		System.out.println("\n\nInvoking deadline analysis\n\n");

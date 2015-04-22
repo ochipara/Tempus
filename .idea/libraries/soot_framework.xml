@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="soot-framework">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/axml-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/slf4j-api-1.7.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/slf4j-simple-1.7.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/soot-infoflow-android.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/soot-infoflow.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/soot-trunk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

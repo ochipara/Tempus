@@ -4,8 +4,11 @@ public class Constants {
 //	public static final String WAITUNTIL_SIGNATURE = "<edu.ucsd.ape.clienthelper.ServiceConnectionHelper: void waituntil_statement(int,int,boolean[])>";
 //	public static final String DEADLINE_ID_SIGNATURE = "<edu.ucsd.ape.Deadline: void deadline(int,java.lang.Object,int)>";
 
-	public static final String WAITUNTIL_SIGNATURE = "<edu.ucsd.ape.Annotations: void waituntil(int,int,int[])>";
-	public static final String DEADLINE_ID_SIGNATURE = "<edu.ucsd.ape.Annotations: void deadline(int,java.lang.Object,int)>";
+//	public static final String WAITUNTIL_SIGNATURE = "<edu.ucsd.ape.Annotations: void waituntil(int,int,int[])>";
+//	public static final String DEADLINE_ID_SIGNATURE = "<edu.ucsd.ape.Annotations: void deadline(int,java.lang.Object,int)>";
+
+	public static final String DEADLINE_ID_SIGNATURE = "<edu.uiowa.annotations.Annotations: void delaybudget(java.lang.Object,int)>";
+	public static final String WAITUNTIL_SIGNATURE = "<edu.uiowa.annotations.Annotations: void waituntil(java.lang.String[],int)>";
 
 	public static final String DUMMY_SIGNATURE = "<dummyMainClass: void dummyMainMethod()>";
 	public static final String NOTIFY_SIGNATURE = "<java.lang.Object: void notify()>";
