@@ -3,12 +3,15 @@ package edu.uiowa;
 import edu.uiowa.locks.LockNotifySite;
 import edu.uiowa.locks.WaitNotifyEdge;
 import edu.uiowa.locks.WaitNotifyGraph;
+import soot.*;
 import soot.jimple.toolkits.callgraph.CallGraph;
 import soot.jimple.toolkits.callgraph.Edge;
 import soot.tagkit.LineNumberTag;
 import soot.tagkit.SourceFileTag;
 import soot.toolkits.graph.ExceptionalUnitGraph;
 import soot.toolkits.scalar.FlowSet;
+
+import java.util.*;
 
 /**
  * 1. the the points-to sets for all the variables specified by a delay annotation

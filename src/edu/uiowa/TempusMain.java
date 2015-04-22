@@ -1,9 +1,15 @@
 package edu.uiowa;
 
+import soot.*;
 import soot.jimple.infoflow.android.SetupApplication;
 import soot.jimple.spark.SparkTransformer;
 import soot.jimple.toolkits.callgraph.CallGraph;
 import soot.options.Options;
+
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Properties;
 
 /**
  * @author ochipara
@@ -151,6 +157,7 @@ public class TempusMain {
 	public static void main(String[] args) throws Exception {		
 		// initialize logging
 		Properties props = System.getProperties();
+		System.out.println("Working Directory = " +  System.getProperty("user.dir"));
 		props.setProperty("log4j.configurationFile", "/Users/ochipara/tmp/workspace2/APEAnalysis/log4j.xml");
 		
 		// compute the main of the application
